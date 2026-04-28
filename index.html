@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Портфолио Данила Блинова – веб-разработчика. Проекты, навыки, контакты.">
+    <title>Портфолио Данила Блинова</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">DB</div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">О себе</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="burger">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Привет, я Данил Блинов</h1>
+                <p>Студент специальности «Информационные системы и программирование»</p>
+                <a href="#projects" class="btn-primary">Смотреть проекты</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Обо мне</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Мне 18 лет, я увлекаюсь веб-разработкой. С 2024 года изучаю современные веб-технологии. Постоянно совершенствую навыки и стремлюсь создавать удобные и красивые интерфейсы.</p>
+                        <p>Кроме программирования, интересуюсь фотографией и спортом.</p>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-item">HTML5</div>
+                        <div class="skill-item">CSS3</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">Python (базовый)</div>
+                        <div class="skill-item">Git</div>
+                        <div class="skill-item">Figma</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Мои проекты</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <img src="images/project1.jpg" alt="Проект интернет-магазин" class="project-img">
+                        <h3>Интернет-магазин</h3>
+                        <p>Адаптивная вёрстка главной страницы и карточек товаров.</p>
+                        <div class="project-tech">HTML, CSS, Flexbox</div>
+                        <a href="#" class="btn-details">Подробнее →</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="images/project2.jpg" alt="Проект TODO-приложение" class="project-img">
+                        <h3>TODO-приложение</h3>
+                        <p>Список задач с добавлением и удалением на чистом JavaScript.</p>
+                        <div class="project-tech">HTML, CSS, JS</div>
+                        <a href="#" class="btn-details">Подробнее →</a>
+                    </article>
+                    <article class="project-card">
+                        <img src="images/project3.jpg" alt="Проект лендинг" class="project-img">
+                        <h3>Лендинг услуги</h3>
+                        <p>Промо-сайт с анимациями и формой захвата контактов.</p>
+                        <div class="project-tech">HTML, CSS, Grid</div>
+                        <a href="#" class="btn-details">Подробнее →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <h2>Контакты</h2>
+                <form id="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="4" placeholder="Сообщение"></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+                <div class="social-links">
+                    <a href="#">GitHub</a>
+                    <a href="#">Telegram</a>
+                    <a href="#">Email: danil@example.com</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 Блинов Данил. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
